@@ -104,6 +104,42 @@
             transform: translateY(-2px);
         }
 
+         /* SOP Section */
+        #SOP {
+            background: linear-gradient(135deg, #e0f2fe 0%, #f0fdf4 100%);
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+
+        .SOP-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            color: #1e293b;
+        }
+
+        .SOP-content p {
+            font-size: 1.5rem;
+            color: #64748b;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4a90e2;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #357abd;
+            transform: translateY(-2px);
+        }
+        
         /* Sections General */
         section h2 {
             text-align: center;
@@ -241,12 +277,20 @@
     <section id="hero">
         <div class="container hero-content">
             <h1>Hi, I'm Kanchaya Methanithiwat</h1>
+            <img src = "IMG_7028.jpeg" width = "100" height = "100" >           
             <p>นักเรียนชั้นมัธยมศึกษาปีที่ 6 แผนการเรียนศิลปะการแสดง โรงเรียนเซนต์โยเซฟทิพวัล</p>
             <a href="#portfolio" class="btn">View My Work</a>
         </div>
     </section>
-
-
+    
+ <section id="SOP">
+        <div class="container SOP-content">
+            <span style="color: #38bdf8; font-weight: 600;">My SOP</span>          
+            <h1>ทำไมต้องคณะ...และมหาวิทยาลัยนี้</h1>
+            <h2>แรงบันดาลใจที่อยากบอกเล่า</h2>            
+            <a href="sop.html" class="btn">Read to...</a>
+        </div>
+    </section>
 
     <section id="about">
         <div class="container">
